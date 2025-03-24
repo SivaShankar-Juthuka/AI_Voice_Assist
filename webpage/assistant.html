@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AI Voice Assist</title>
+        <link href="static/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>       
+                    <h2>
+                        <ul>
+                            <li id="home"><a href="/">Home</a></li>
+                            <div class="right-links">
+                                <li><a href="/assistant">Assistant</a></li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                            </div>
+                        </ul>
+                    </h2>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <section class="assistant-section">
+                <div class="assistant-container">
+                    <h2>AI Voice Assistant</h2>
+
+                    <!-- Language Selection -->
+                    <label for="language-select">Choose Language:</label>
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="hi">Hindi</option>
+                    </select>
+
+                    <!-- Chat Area -->
+                    <div id="chat-container">
+                        <div id="messages" class="chat-box"></div>
+                        <div class="input-area">
+                            <button id="start-button">Start</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>AI Voice Assistant &copy; 2024</p>
+        </footer>
+    </body>
+    </html>
